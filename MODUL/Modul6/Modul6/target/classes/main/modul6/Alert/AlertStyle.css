@@ -1,0 +1,40 @@
+.backgroundAlert{
+   -fx-background-color: linear-gradient(
+   to bottom right,
+   rgb(25, 24, 42),
+   rgb(31, 31, 55)
+
+   )
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+}
+
+.text-field{
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-background-color: rgb(42, 42, 78);
+
+}
+.text-field:focused{
+    -fx-background-color: rgb(101, 100, 215);
+}
+.text-field.Description{
+    -fx-alignment: top-left;
+    -fx-pref-height: 50;
+    -fx-min-heigt: 50;
+}
+.button{
+    -fx-translate-y: 20;
+    -fx-pref-height: 40;
+    -fx-min-height: 40;
+    -fx-pref-width: 120;
+    -fx-min-width: 120;
+    -fx-text-fill: white;
+    -fx-background-color: rgb(63, 50, 166);
+}
+.button:hover{
+    -fx-background-color: rgb(91, 131, 95);
+}

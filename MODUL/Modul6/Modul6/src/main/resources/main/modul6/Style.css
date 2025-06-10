@@ -1,0 +1,247 @@
+.Loginlayout{
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-background-image: url("Background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+}
+
+.childlayout{
+    -fx-background-radius: 15;
+    -fx-background-color: rgba(35,37,62,0.8);
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-pref-width: 300;
+    -fx-max-width: 300;
+    -fx-min-width: 300;
+    -fx-pref-height: 200;
+    -fx-max-height: 200;
+    -fx-min-height: 200;
+}
+
+.childlayout:hover{
+    -fx-background-color: rgba(26, 27, 41, 0.9);
+}
+
+.GridBackground{
+    -fx-background-image: url("Background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+/*===============Untuk Input Pengguna===============*/
+.userinput{
+    -fx-text-fill: white;
+    -fx-background-color: rgba(22, 23, 37, 0.5);
+    -fx-font-size: 15;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 250px;
+    -fx-max-height: 25px;
+    -fx-max-width: 250px;
+}
+.userinput:hover{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(60,61,78);
+}
+
+.UsernameInputField{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0, 0, 255);
+}
+
+.UsernameInputField:hover{
+    -fx-background-color: rgb(77, 64, 166);
+}
+
+.NimInputField{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0, 0, 255);
+}
+.NimInputField:hover{
+    -fx-background-color: rgb(77, 64, 166);
+}
+
+
+
+/*========================Mengatur Tombol==========================*/
+.button.loginBtn{
+    -fx-translate-y: 10;
+    -fx-border-width: 0;
+    -fx-font-family: "Arial";
+    -fx-background-radius: 15px;
+    -fx-font-size: 14;
+    -fx-pref-height: 90px;
+    -fx-pref-width: 110px;
+    -fx-text-fill: black;
+    -fx-background-color: rgb(171, 137, 246);
+}
+
+.button.loginBtn:hover{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(71, 169, 234);
+    -fx-opacity: 0.5;
+}
+
+.combo-box{
+    -fx-border-width: 0;
+    -fx-font-family: "Arial";
+    -fx-alignment: center;
+    -fx-background-color: rgba(22, 23, 37, 0.5);
+    -fx-text-fill: white;
+
+}
+.combo-box:hover{
+    -fx-background-color: rgb(60,61,78);
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+.combo-box .list-view{
+    -fx-background-color: rgb(60,61,78);
+}
+.combo-box .list-cell:hover{
+    -fx-background-color: rgb(41, 42, 74);
+}
+
+.button.Add{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0, 0, 255);
+}
+
+.button.Add:hover{
+    -fx-background-color: rgb(91, 131, 95);
+}
+
+.button.Claimed{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0, 0, 255);
+    -fx-pref-height: 20px;
+    -fx-pref-width: 450px;
+}
+.button.Claimed:hover{
+    -fx-background-color: rgb(91, 131, 95);
+}
+
+.button.Del{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0, 0, 255);
+}
+.button.Del:hover{
+    -fx-background-color: #c74e4e;
+}
+
+.button.Logout{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0, 0, 255);
+}
+.button.Logout:hover{
+    -fx-background-color: #c74e4e;
+}
+/*====================Mengatur Label-label=====================*/
+.AnnounceLabel{
+    -fx-translate-y: 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c74e4e;
+}
+.Mahasiwadatalabel{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+.ReportTitle{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+.greeting{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.label.Apptitle{
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-font-size: 30;
+    -fx-font-family: "Arial";
+}
+.label.LoginLabel{
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-font-size: 35;
+    -fx-font-family: "Arial";
+}
+
+.Announce{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+}
+.Announce:hover{
+ -fx-cursor: hand;
+    -fx-text-fill: linear-gradient(
+    to left,
+    rgb(155, 154, 163),
+    rgb(155, 154, 163),
+    rgb(155, 154, 163)
+    );
+}
+
+/*===============Mengatur kolom dan Tabel======================*/
+.table-view{
+    -fx-border-width: 0;
+    -fx-padding: 10;
+    -fx-faint-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-background-color: rgba(253, 253, 253,0.9);
+    -fx-background-insets: 0;
+    -fx-background-radius: 10;
+}
+
+.table-view .column-header{
+    -fx-background-insets: 0;
+    -fx-background-radius: 10;
+
+}
+.table-view .column-header .label{
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER_LEFT;
+}
+.table-row-cell{
+    -fx-background-color: transparent;
+    -fx-font-size: 12;
+}
+
+.table-cell {
+    -fx-background-color: transparent;
+    -fx-border-width: 0.125 0;
+    -fx-border-color: #bfc0c2;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: rgb(100, 94, 166);
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #6475ca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
